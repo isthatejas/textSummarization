@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+.jumbotron{
+    background-color: orange;
+}
+
+.original_title{
+    background-color: orangered;
+    font-size:20px;
+    font-weight:bold;
+    padding:2px;
+    display:flex;
+    justify-content: center;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "EDPT" 100,
+      "EHLT" 12;
+}
+
+.summary_title{
+    background-color: greenyellow;
+    font-size:20px;
+    font-weight:bold;
+    padding:2px;
+    display:flex;
+    justify-content: center;
+}
+
+
+.srt{
+    display:flex;
+    flex-direction:row;
+}
+
+.originalTxt{
+    background-color: orangered;
+    padding:20px;
+}
+
+.summaryTxt{
+    background-color:greenyellow;
+    padding:20px;
+    margin-left: 10px;
+}
+
+.heading{
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+
+}
+
+.lead{
+    display:flex;
+    justify-content:center;
+}
+
+.submitBtn{
+    margin-top:10px;
+}
